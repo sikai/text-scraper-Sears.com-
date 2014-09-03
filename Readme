@@ -1,0 +1,16 @@
+System Requirements
+-----------------------
+This scraper is developed in JAVA with Eclipse. Execution of this program requires JVM. 
+  
+FAQ
+-----------------------
+Q: What's in this folder?
+A: source code in folder "src", an executable jar  and a README.
+   
+Q: How to run the program?
+A: Handle two kinds of queries:
+	Query 1: (requires a single argument)
+	java -jar Assignment.jar <keyword> (e.g. java -jar core_scraper.jar "baby strollers")
+	Query 2: (requires two arguments)
+	java -jar Assignment.jar <keyword> <page number> (e.g. java -jar core_scraper.jar "baby strollers" 2)
+   
